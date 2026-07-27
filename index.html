@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Black Sea Royal Hotel in Kobuleti, Georgia — boutique hospitality by the Black Sea.">
+  <title>Black Sea Royal Hotel | Kobuleti, Georgia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Black Sea Royal Hotel home">
+      <img src="assets/black-sea-royal-logo.png" alt="Black Sea Royal Hotel crown monogram">
+      <span>Black Sea Royal</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#rooms" data-i18n="nav_rooms">Rooms</a>
+      <a href="#amenities" data-i18n="nav_amenities">Amenities</a>
+      <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <label class="sr-only" for="language">Language</label>
+      <select id="language" aria-label="Language selector">
+        <option value="en">English</option>
+        <option value="ka">ქართული</option>
+        <option value="ru">Русский</option>
+      </select>
+      <a class="button button-small" href="#booking" data-i18n="book_now">Book now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/hotel-exterior.png" alt="Black Sea Royal Hotel exterior illuminated at night">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero_eyebrow">Kobuleti · Georgia · Black Sea Coast</p>
+        <h1 data-i18n="hero_title">A royal welcome by the Black Sea</h1>
+        <p data-i18n="hero_text">Elegant rooms, warm Georgian hospitality and a relaxed coastal setting in the heart of Kobuleti.</p>
+        <div class="hero-buttons">
+          <a class="button" href="#booking" data-i18n="check_availability">Check availability</a>
+          <a class="text-link" href="#about" data-i18n="discover_hotel">Discover the hotel</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <strong data-i18n="hero_card_title">Your coastal stay</strong>
+        <span data-i18n="hero_card_text">Comfortable accommodation close to Kobuleti's beach, cafés and seaside promenade.</span>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div>
+        <p class="eyebrow" data-i18n="about_eyebrow">Refined coastal hospitality</p>
+        <h2 data-i18n="about_title">Stay close to everything that makes Kobuleti special</h2>
+      </div>
+      <div>
+        <p data-i18n="about_text_1">Black Sea Royal Hotel combines a distinctive black-and-gold identity with friendly, personal service. It is an ideal base for beach holidays, weekend escapes and business travel.</p>
+        <p data-i18n="about_text_2">Relax after a day on the coast, enjoy local dining nearby and experience the easy pace of one of Georgia's best-known seaside towns.</p>
+      </div>
+    </section>
+
+    <section class="feature-image">
+      <img src="assets/hotel-exterior.png" alt="Night view of Black Sea Royal Hotel in Kobuleti">
+      <div class="feature-badge">
+        <span data-i18n="location_label">Location</span>
+        <strong data-i18n="location_value">Kobuleti, Adjara, Georgia</strong>
+      </div>
+    </section>
+
+    <section class="section" id="rooms">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="rooms_eyebrow">Rooms & stays</p>
+          <h2 data-i18n="rooms_title">Designed for comfort</h2>
+        </div>
+        <p data-i18n="rooms_intro">Choose the room style that suits your visit. Replace the sample room types and prices below with your confirmed hotel details.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="room-card">
+          <div class="room-visual room-one"><span>01</span></div>
+          <div class="card-body">
+            <h3 data-i18n="room_1_title">Classic Double</h3>
+            <p data-i18n="room_1_text">A comfortable room for couples or solo travellers, with a private bathroom and modern essentials.</p>
+            <div class="room-meta"><span data-i18n="room_1_meta">2 guests · 1 double bed</span></div>
+          </div>
+        </article>
+
+        <article class="room-card">
+          <div class="room-visual room-two"><span>02</span></div>
+          <div class="card-body">
+            <h3 data-i18n="room_2_title">Family Room</h3>
+            <p data-i18n="room_2_text">Extra space for families, with flexible sleeping arrangements and room to unwind.</p>
+            <div class="room-meta"><span data-i18n="room_2_meta">Up to 4 guests</span></div>
+          </div>
+        </article>
+
+        <article class="room-card">
+          <div class="room-visual room-three"><span>03</span></div>
+          <div class="card-body">
+            <h3 data-i18n="room_3_title">Royal Suite</h3>
+            <p data-i18n="room_3_text">A more spacious stay with an elevated feel, ideal for special occasions and longer visits.</p>
+            <div class="room-meta"><span data-i18n="room_3_meta">2 guests · premium space</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="amenities" id="amenities">
+      <div class="section">
+        <p class="eyebrow" data-i18n="amenities_eyebrow">Hotel highlights</p>
+        <h2 data-i18n="amenities_title">Everything for an easy stay</h2>
+        <div class="amenity-grid">
+          <div><span>◆</span><strong data-i18n="amenity_1">Black Sea location</strong></div>
+          <div><span>◆</span><strong data-i18n="amenity_2">Free Wi-Fi</strong></div>
+          <div><span>◆</span><strong data-i18n="amenity_3">Air-conditioned rooms</strong></div>
+          <div><span>◆</span><strong data-i18n="amenity_4">Family-friendly stays</strong></div>
+          <div><span>◆</span><strong data-i18n="amenity_5">Local recommendations</strong></div>
+          <div><span>◆</span><strong data-i18n="amenity_6">Airport transfer on request</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="gallery_eyebrow">Gallery</p>
+          <h2 data-i18n="gallery_title">Black Sea Royal after dark</h2>
+        </div>
+        <p data-i18n="gallery_text">The illuminated façade and signature crown branding create a memorable arrival in Kobuleti.</p>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/hotel-exterior.png" alt="Hotel exterior at night">
+        <div class="logo-panel"><img src="assets/black-sea-royal-logo.png" alt="Black Sea Royal logo"></div>
+        <img src="assets/hotel-exterior.png" alt="Black Sea Royal Hotel frontage">
+      </div>
+    </section>
+
+    <section class="booking" id="booking">
+      <div>
+        <p class="eyebrow" data-i18n="booking_eyebrow">Plan your stay</p>
+        <h2 data-i18n="booking_title">Request availability</h2>
+        <p data-i18n="booking_text">Send your preferred dates and contact details. This sample form opens your email application; a direct booking engine can be connected later.</p>
+      </div>
+
+      <form id="booking-form">
+        <label>
+          <span data-i18n="form_name">Name</span>
+          <input id="name" type="text" required>
+        </label>
+        <label>
+          <span data-i18n="form_email">Email</span>
+          <input id="email" type="email" required>
+        </label>
+        <label>
+          <span data-i18n="form_checkin">Check-in</span>
+          <input id="checkin" type="date" required>
+        </label>
+        <label>
+          <span data-i18n="form_checkout">Check-out</span>
+          <input id="checkout" type="date" required>
+        </label>
+        <label class="full">
+          <span data-i18n="form_guests">Guests</span>
+          <select id="guests">
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option>
+          </select>
+        </label>
+        <button class="button full" type="submit" data-i18n="form_submit">Send booking request</button>
+      </form>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div>
+        <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+        <h2 data-i18n="contact_title">We look forward to welcoming you</h2>
+      </div>
+      <div class="contact-grid">
+        <div><span data-i18n="contact_address_label">Address</span><strong data-i18n="contact_address">Kobuleti, Adjara, Georgia</strong></div>
+        <div><span data-i18n="contact_phone_label">Telephone</span><strong>+995 XX XXX XX XX</strong></div>
+        <div><span data-i18n="contact_email_label">Email</span><strong>reservations@example.com</strong></div>
+      </div>
+      <p class="edit-note" data-i18n="contact_note">Replace the sample telephone number, email address and exact street address before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/black-sea-royal-logo.png" alt="">
+      <div><strong>Black Sea Royal Hotel</strong><span data-i18n="footer_location">Kobuleti, Georgia</span></div>
+    </div>
+    <p>© <span id="year"></span> Black Sea Royal Hotel.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
